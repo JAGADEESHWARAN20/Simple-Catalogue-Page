@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCT FILTER</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Open+Sans:wght@300;400&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-slate-100">
+    
+  
+    <div class="m-12">
+        
+     
+    <div class="container mx-auto">
+        
+        <h1 class="font-poppins text-center text-3xl font-bold pt-24 ">Filter Products</h1>
+    </div>
+
+    <form class="text-center py-4">
+        <input class="placeholder-gray-800 focus:outline-none bg-gray-200 text-gray-800 w-2/4 px-3 font-poppins rounded-md" type="text" id="filterInput" placeholder="Filter" >
+    </form> 
+     
+    <!--product Grid-->
+    <div class="products grid grid-cols-1 md:grid-col-2 lg:grid-cols-3 xl:grid-cols-4 pt-12 gap-20">
+        <div class="item justify-self-center">
+            <img src="img1.png" class="transition ease-in-out bg-cover rounded-md hover:shadow-xl img mix-blend-multiply" alt="img1">
+             <div class="text-center py-3 font-poppins">
+                <h1 class="text-lg title ">hoodie</h1>
+                 <a href="#" class="block">
+                    <span class="text-sm text-red-400">cloths</span>
+                 </a>
+                 <span class="block py-3">$<span class="text-md">12.88</span></span>
+                 <button class="border-2 px-8 py-1 bg-yellow-400 rounded-md hover:bg-yellow-100 hover:shadow-xl">Buy now</button>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+    <script src="main.js"></script>
+    <script src="advanced.js"></script>
+</body>
+</html>
