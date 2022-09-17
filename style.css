@@ -1,0 +1,33 @@
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.img{
+   width: 250px;
+   height: 350px;
+   background-color: rgba(224, 224, 224);
+   background-blend-mode: overlay;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(224, 224, 224); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(244, 91, 3); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fa0101; 
+}
